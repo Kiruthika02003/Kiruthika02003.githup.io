@@ -41,7 +41,15 @@
         width: 92%;
     }
 }
-
+@media (min-width:480px) {
+    .hex h1 {
+        bottom: 50%;
+        padding-top: 50%;
+        font-size: -5px;
+        z-index: 1;
+        transform: translateY(-100%) translatez(-1px);
+    }
+}
 @media (max-width:640px) {}
 
 @media (min-width:640px) {}
@@ -61,6 +69,9 @@
     nav.navbar.navbar-expand-xl.bg-dark.navbar-dark.py-3.fixed-top {
         width: 100%;
     }
+    .hex p {
+        font-size: 10px;
+    }
     /* nav.navbar.navbar-expand-lg.bg-light {
         position: fixed;
         width: 83%;
@@ -74,3 +85,5 @@
 @media (max-width:360px) {}
 
 @media (max-width:321px) {}
+
+
